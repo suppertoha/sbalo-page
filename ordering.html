@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="css/main.css">
+		<title>Sbalo</title>
+
+
+	</head>
+
+	<body>
+    <div class="wrapper">
+      <!-- layout-product -->
+
+      <div class="layout-product">
+        <div class="layout-product__container container">
+          <div class="layout-product__inner media-big w-1366">
+            <div class="layout-product__cart">
+              <div class="cart cart-payment">
+                <div class="cart__inner">
+                  <div class="cart__title">Оплата</div>
+  
+                  <div class="cart__payment payment">
+                    <div class="payment__items">
+                      <div class="payment__item payment__item_green switch-el active">SberPay</div>
+  
+                      <div class="payment__item  switch-el">
+                        Банковской <br />
+                        картой
+                      </div>
+  
+                      <div class="payment__item switch-el">
+                        Рассрочка <br />
+                        Сбербанк
+                      </div>
+                    </div>
+  
+                    <div class="payment__checkbox checkbox-block">
+                      <div class="block-input">
+                        <div class="checkbox">
+                          Оплата при получении
+                          <input type="checkbox" checked name="checkbox1" />
+                        </div>
+                      </div>
+  
+                      <div class="checkbox-block__hint hint">
+                        <div class="hint__button">?</div>
+                        <div class="hint__content">
+                          <div class="hint__title">Как работает оплата после получения</div>
+                          <div class="hint__text">
+                            <p>
+                              Оплата автоматически спишется с указанной вами карты только за
+                              выкупленные товары. За доставку и возврат товаров, которые не подошли,
+                              платить не придется.
+                            </p>
+                            <p>Опция бесплатная и доступна для заказов на сумму до 100 000 ₽.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="cart cart-delivery">
+                <div class="cart__inner">
+                  <div class="cart__title">Доставка</div>
+  
+                  <div class="cart__delivery delivery">
+                    <div class="delivery__radio radio-delivery">
+                      <label class="radio radio-delivery__inner mr">
+                        <input type="radio" name="toggle" class="radio__input" />
+                        <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="11.511" height="9.528" viewBox="0 0 11.511 9.528">
+                            <path id="ok" d="M242,306.21l4.14,4.14,5.86-7.933" transform="translate(-241.293 -301.823)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+                          </svg>
+                        </span>
+                        <div class="radio__name">Самовывоз</div>
+                      </label>
+                    
+                        <label class="radio radio-delivery__inner">
+                          <input type="radio" name="toggle" class="radio__input" />
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11.511" height="9.528" viewBox="0 0 11.511 9.528">
+                              <path id="ok" d="M242,306.21l4.14,4.14,5.86-7.933" transform="translate(-241.293 -301.823)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+                            </svg>
+                          </span>
+                          <div class="radio__name">Курьером</div>
+                        </label>
+          
+                    </div>
+  
+                    <div class="delivery__description">
+                      <div class="description-delivery bb">
+                        <h3 class="description-delivery__title">Курьером по адресу</h3>
+                        <div class="description-delivery__info">
+                          <img src="./images/icon-location.svg" alt="location" />
+                          Россия, Московская обл., г. Москва, просп. Ленина, д. 109, квартира 50
+                        </div>
+                        <div class="description-delivery__warning">Срок хранения - 5 дней</div>
+                        <a class="description-delivery__button btn-hover" data-fancybox data-src="#hidden-courier" class="modal-button" href="javascript:;">
+                          Изменить
+                        </a>
+                      </div>
+  
+                      <div class="description-delivery">
+                        <h3 class="description-delivery__title">Получатель</h3>
+                        <div class="description-delivery__info">
+                          <img src="./images/icon-person.svg" alt="person" />
+                          Анна Иванова, +7 (900) 900-90-90
+                        </div>
+                        <div class="description-delivery__button btn-hover">Изменить</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="cart cart-brand">
+                <div class="cart__inner">
+                  <div class="cart__title">Можно забрать с 9 декабря с 17:00</div>
+  
+                  <div class="cart__subtitle">Склад Сбало (Московская обл.) • 2 товара • 2, 5 кг</div>
+  
+                  <div class="cart__brand brand">
+                    <div class="brand__items">
+                      <div class="brand__item">
+                        <div class="brand__image">
+                          <img src="images/brand-img1.jpg" alt="brand" />
+                        </div>
+                        <div class="brand__sum">6 599 RUB</div>
+                      </div>
+  
+                      <div class="brand__item">
+                        <div class="brand__image">
+                          <img src="images/brand-img2.jpg" alt="brand" />
+                        </div>
+                        <div class="brand__sum">2 299 RUB</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="layout-product__check check">
+              <div class="check__inner">
+                <button class="check__button">
+                  <a href="#" class="btnMain btn-green w-1366" data-button="Перейти к оформлению"><span>Оплатить онлайн</span></a>
+                </button>
+                <div class="check__info">
+                  Доступные способы и время доставки можно выбрать при оформлении заказа
+                </div>
+                <div class="check__body">
+                  <div class="check__order">Ваш заказ
+                    <span>2 товара • 2,5 кг</span>
+                  </div>
+                  <ul class="check__item item-check">
+                    <li class="item-check__body">
+                      <div class="item-check__name">Товары (2)</div>
+                      <span></span>
+                      <div class="item-check__sum">8 893 RUB</div>
+                    </li>
+  
+                    <li class="item-check__body">
+                      <div class="item-check__name">Скидка</div>
+                      <span></span>
+                      <div class="item-check__sum">500 RUB</div>
+                    </li>
+  
+                    <li class="item-check__body">
+                      <div class="item-check__name">Доставка</div>
+                      <span></span>
+                      <div class="item-check__sum highlighted">Бесплатно</div>
+                    </li>
+                    
+                  </ul>
+                </div>
+  
+                <div class="check__total total-check">
+                  <div class="total-check__inner">
+                    <div class="total-check__name">Итого</div>
+                    <div class="total-check__sum">8 893 RUB</div>
+                  </div>
+                </div>
+  
+                <div class="check__promo promo">
+                  <div class="promo__header">
+                    <div class="promo__title">Промокод или сертификат</div>
+                    <div class="promo__icon">
+                      <svg class="icon">
+                        <use xlink:href="./images/svg-sprite/svg-sprite.svg#close"></use>
+                      </svg>
+                    </div>
+                  </div>
+                
+                  <div class="promo__body">
+                    <div class="promo__input">
+                      <div class="form-item"> 
+                        <input class="inputMain" type="promo" name="promo" placeholder=" ">
+                        <label class="form-label">Промокод</label>
+                        <small class="delivery-address__error-msg"></small>
+                      </div>
+                    </div>
+                    <button class="promo__button btnMain btn-black">
+                      Применить промокод
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="layout-product__payment payment-product w-1366">
+              <div class="payment-product__inner">
+                <ul class="payment-product__content">
+                  <li class="payment-product__sum">8 893 RUB</li>
+                  <li class="payment-product__description">2 товара • 2,5 кг</li>
+                </ul>
+
+                <button class="payment-product__button check__button">
+                  <a href="#" class="btnMain btn-green">Оплатить онлайн</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--End Ordering -->
+
+      <!-- Delivery-modal -->
+      <div id="hidden-courier" class="delivery-modal">
+        <div class="delivery-modal__inner">
+          <h2 class="delivery-modal__title">Выберите способ доставки</h2>
+          <div class="delivery-modal__items">
+
+            <!-- Cart-modal -->
+            <div class="cart-modal active switch-el modal-search">
+              <div class="modal-search__icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22.05" height="31.5" viewBox="0 0 22.05 31.5">
+                  <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M18.525,3A11.017,11.017,0,0,0,7.5,14.025C7.5,22.294,18.525,34.5,18.525,34.5S29.55,22.294,29.55,14.025A11.017,11.017,0,0,0,18.525,3Zm0,14.963a3.938,3.938,0,1,1,3.938-3.937A3.939,3.939,0,0,1,18.525,17.963Z" transform="translate(-7.5 -3)" fill="#005bff"/>
+                </svg>
+              </div>
+
+              <div class="modal-search__text">
+                Добавить пункт выдачи или адрес доставки
+              </div>
+            </div>
+            <!--End Cart-modal -->
+
+            <!-- Cart-modal -->
+            <div class="cart-modal switch-el">
+              <div class="cart-modal__header">
+                <h3 class="cart-modal__title" data-title="Магазин Митино">
+                  <span>Курьером по адресу</span>
+                </h3>
+
+                <div class="cart-modal__del">
+                  <svg id="Icon_material-delete" data-name="Icon material-delete" xmlns="http://www.w3.org/2000/svg" width="15.556" height="20" viewBox="0 0 15.556 20">
+                    <path id="Icon_material-delete-2" data-name="Icon material-delete" d="M8.611,22.278A2.229,2.229,0,0,0,10.833,24.5h8.889a2.229,2.229,0,0,0,2.222-2.222V8.944H8.611ZM23.056,5.611H19.167L18.056,4.5H12.5L11.389,5.611H7.5V7.833H23.056Z" transform="translate(-7.5 -4.5)" />
+                  </svg>
+                </div>
+              
+              </div>
+
+              <ul class="cart-modal__content">
+                <li class="cart-modal__address">
+                  <div class="cart-modal__icon">
+                    <img src="./images/icon-location.svg" alt="location" />
+                  </div>
+                  <div class="cart-modal__text cart-modal__text_bold">
+                    Россия, Московская обл., г. Москва, просп. Ленина, д. 109
+                  </div>
+                </li>
+                <li class="cart-modal__address">
+                  <div class="cart-modal__icon">
+                    <img src="./images/icon-person.svg" alt="person" />
+                  </div>
+                  <div class="cart-modal__text">
+                    Анна Иванова, +7 (900) 900-90-90
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--End Cart-modal -->
+
+            <!-- Cart-modal -->
+            <div class="cart-modal switch-el">
+              <div class="cart-modal__header">
+                <h3 class="cart-modal__title" data-title="Магазин Митино">
+                  <span>Курьером по адресу</span>
+                </h3>
+
+                <div class="cart-modal__del">
+                  <svg id="Icon_material-delete" data-name="Icon material-delete" xmlns="http://www.w3.org/2000/svg" width="15.556" height="20" viewBox="0 0 15.556 20">
+                    <path id="Icon_material-delete-2" data-name="Icon material-delete" d="M8.611,22.278A2.229,2.229,0,0,0,10.833,24.5h8.889a2.229,2.229,0,0,0,2.222-2.222V8.944H8.611ZM23.056,5.611H19.167L18.056,4.5H12.5L11.389,5.611H7.5V7.833H23.056Z" transform="translate(-7.5 -4.5)" />
+                  </svg>
+                </div>
+              
+              </div>
+
+              <ul class="cart-modal__content">
+                <li class="cart-modal__address">
+                  <div class="cart-modal__icon">
+                    <img src="./images/icon-location.svg" alt="location" />
+                  </div>
+                  <div class="cart-modal__text cart-modal__text_bold">
+                    Россия, Московская обл., г. Москва, просп. Ленина, д. 109
+                  </div>
+                </li>
+                <li class="cart-modal__address">
+                  <div class="cart-modal__icon">
+                    <img src="./images/icon-person.svg" alt="person" />
+                  </div>
+                  <div class="cart-modal__text">
+                    Анна Иванова, +7 (900) 900-90-90
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--End Cart-modal -->
+
+          </div>
+        </div>
+  
+      </div>
+      <!-- End Delivery-modal -->
+
+    </div>
+
+    <script src="./libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="./libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./libs/swiper/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+	</body>
+</html>
